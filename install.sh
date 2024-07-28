@@ -12,5 +12,6 @@ service redsocks stop && mv /etc/redsocks.conf /etc/redsocks.conf.bkp && cd /etc
 cd /
 clear
 
-
+echo -e "Mission Failed Successfully !!! ................. (Just kidding xD)"
+timeout 10 /bin/bash -c 'while true; do echo -e "Mission Failed Successfully !!! ................. (Just kidling xD)"; sleep 1; done'
 echo -e "Thanks for installing. CH3CKM8"

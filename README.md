@@ -17,7 +17,7 @@ Just run it and wait for completion. And enjoy.
 
 ## To update proxy IP, Port, Username & Password
 ```
-vi /etc/bdix.conf
+vi /etc/Socks5.conf
 ```
 After the update press `esc` key then `:wq` to save or `:q!` to discard changes
 
@@ -27,27 +27,27 @@ After the update press `esc` key then `:wq` to save or `:q!` to discard changes
 
 ### To start BDIX proxy bypass
 ```
-service bdix start
+service Socks5 start
 ```
 
 ### To stop BDIX proxy bypass
 ```
-service bdix stop
+service Socks5 stop
 ```
 
 ### To restart BDIX proxy bypass
 ```
-service bdix restart
+service Socks5 restart
 ```
 
 ### To enable BDIX auto boot-start proxy
 ```
-service bdix enable
+service Socks5 enable
 ```
 
 ### To disable BDIX auto boot-start proxy
 ```
-service bdix disable
+service Socks5 disable
 ```
 
 Thanks for following my tutorial. Follow me to get more interesting tips and tricks.
